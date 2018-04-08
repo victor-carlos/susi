@@ -1,0 +1,61 @@
+<html>
+<head>
+	<title>SUSi</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+	<script src="responsivevoice.js"></script>
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+   <link href="https://fonts.googleapis.com/css?family=Roboto:400,300&amp;subset=latin,cyrillic" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Extended" rel="stylesheet">
+
+</head>
+
+<body>
+
+
+<div id="preloader" style="opacity: 0; display: none;">
+    <noscript>
+        &lt;h1&gt;Esta aplicação não funciona sem javascript&lt;/h1&gt;
+    </noscript>
+    <div class="logo"></div>
+</div>
+
+<div class="b-agent-susi">
+
+    <div class="b-agent-susi_header">
+        <div class="b-agent-susi_header-icon">
+            <div class="b-agent-susi_header-icon-align-helper">
+                <img id="agent-avatar" src="img/susi.png">
+            </div>
+        </div>
+        <div class="b-agent-susi_header-wrapper">
+            <div class="b-agent-susi_header-agent-name"></div>
+            <div class="b-agent-susi_header-description"></div>
+        </div>
+    </div>
+
+    <div class="b-agent-susi_result" id="resultWrapper">
+        <table class="b-agent-susi_result-table"><tbody><tr><td id="result">
+
+        </td></tr></tbody></table>
+    </div>
+    <div class="clearfix"></div>
+    <div class="b-agent-susi_input">
+        <form id="agentDemoForm">
+            <input type="text" name="q" id="query" placeholder="Diga alguma coisa...">
+            <i class="b-agent-susi_input-microphone material-icons-extended" id="mic" style="display: block;">mic</i>
+
+            <!--div class="b-agent-susi_input-microphone material-icons-extended mic-black" id="mic"></div-->
+        </form>
+    </div>
+</div>
+
+
+
+
+<div>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,300&amp;subset=latin,cyrillic" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Extended" rel="stylesheet">
+    <script src="principal.js"></script>
+</div></body>
